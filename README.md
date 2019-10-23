@@ -139,7 +139,10 @@ Let's create the `conf/se.yaml` file with the following content:
 app:
   greeting: "Hallo"
 ```
-Now after restart, the message should be changed.
+
+Now after rebuild package 
+'mvn clean package -Dmaven.test.skip'
+and restart, the message should be changed.
 
 If the application is started from the `helidon-quickstart-se` folder, the 
  configuration is correctly located.
