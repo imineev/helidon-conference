@@ -141,7 +141,9 @@ app:
 ```
 
 Now after rebuild package 
+
 ```mvn clean package -Dmaven.test.skip```
+
 and restart, the message should be changed.
 
 If the application is started from the `helidon-quickstart-se` folder, the 
