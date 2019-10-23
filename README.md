@@ -90,6 +90,7 @@ the classpath (see SE configuration file `helidon-quickstart-se/src/main/resourc
 We now want to add additional files to be able to override configuration on each environment.
 Let's add `conf/se.yaml` and `conf/mp.yaml` files as 
 configuration sources.
+It can be done on same level as   - helidon-quickstart-mp and helidon-quickstart-se directories
 
 As we want to read these as files, we either must configure the path as absolute, or
 start the application from the correct directory.
